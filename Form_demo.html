@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyscript's Form DEMOS</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+</style>
+<body>
+    <form>
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name = "name"><br>
+        <select name="countries" id="countries">
+            <option value="India">India</option>
+            <option value="Germany">Germany</option>
+            <option value="Netherlands">Netherlands</option>
+        </select>
+        <input pys-onClick = "sub" type="submit" id = "btn-form" value="submit">
+    </form>
+</body>
+</html>
